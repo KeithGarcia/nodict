@@ -56,4 +56,4 @@ class NoDict:
 
     def __setitem__(self, key, value):
         """Square bracket assignment"""
-        self.add(key, value)
+        return self.add(key, value)
